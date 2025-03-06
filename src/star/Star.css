@@ -1,0 +1,26 @@
+#app {
+    width: 100%;
+    text-align: center;
+    
+    .rating-widget {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+  
+      .star {
+        margin: 20px 10px;
+        font-size: 2em;
+        color: lightGrey;
+        transition: all 0.5s ease-in-out;
+        
+        &.active {
+          color: gold;
+        }
+        
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.3)
+        }
+      }
+    }
+  }
